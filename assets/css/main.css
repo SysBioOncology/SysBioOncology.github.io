@@ -2539,6 +2539,36 @@ input, select, textarea {
 		background-repeat: no-repeat,					no-repeat,					repeat;
 	}
 
+	/* Page Header with Logos */
+	.page-header {
+    		display: flex;
+    		align-items: center;
+ 		   justify-content: space-between; /* Ensures logos are at edges */
+ 		   padding: 10px;
+ 		   background-color: #fff; /* Matches existing header */
+ 		   border-bottom: 2px solid #ccc; /* Optional */
+		}
+
+	.page-header h1 {
+	    flex-grow: 1; /* Allows title to take available space */
+	    text-align: center;
+ 	   font-size: 24px;
+ 	   margin: 0;
+	}
+
+	.logo {
+	    height: 50px; /* Adjust size */
+	    width: auto;
+	}
+
+	.left-logo {
+ 	   margin-right: auto;
+	}
+
+	.right-logo {
+	    margin-left: auto;
+	}
+
 		#header h1 {
 			padding: 0 0 2.75em 0;
 			margin: 0;
